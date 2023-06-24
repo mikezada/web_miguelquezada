@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MK_Toys</title>
+    <!-- <link rel="stylesheet" href="css/estilos.css" />-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="LogoHeader">
+        <img class="Logoimg" src="img/Logo.png" alt="MK_Toys" height="100" />
+      </div>
+
+      <div class="header-right">
+        <form>
+          <!-- Barra de Busqueda -->
+          <input type="search" placeholder="Buscar" />
+          <button type="submit">Buscar</button>
+        </form>
+
+        <nav>
+          <!-- Enlaces de Navegacion -->
+
+          <div class="menu-items">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="Categoria.html">Categoría</a></li>
+              <li><a href="Acerca de Nosotros.html">Acerca de Nosotros</a></li>
+              <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="cart">        
+        <div class="menu-toggle">
+          <ul class="nav nav-tabs">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Menu</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Inicio</a>
+                <a class="dropdown-item" href="Categoria.html">Categoría</a>
+                <a class="dropdown-item" href="Acerca de Nosotros.html">Nosotros</a>
+                <a class="dropdown-item" href="Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Contenedor del carrito de compras -->
+        <a href="Carrito.html"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </header>
+
+    <body>
+      
+      <section class="TituloPagina">
+        <div class="TitulosBanner">
+          <h1>CARRITO DE COMPRAS</h1>
+          <img src="img/TituloPaginas.png" alt="BannerPagina" width="100%" />
+        </div>
+      </section>
+
+
+      <div><br></div>
+
+      <section class="Detalle-de-Articulos">
+        <div class="CarritoDetalle">
+          <h2 class="center">
+            <br />
+            Detalle de Artículos
+          </h2>
+          <h2 class="center">Precio Unitario C$</h2>
+
+          <div class="container">
+            <hr />
+            <table class="table">
+              <thead>
+                <tr class="center">
+                  <th scope="col">#</th>
+                  <th scope="col">Item</th>
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Total</th>
+                  <th scope="col">Eliminar</th>
+                </tr>
+              </thead>
+              <tbody id="items">
+                <tr class="itemscarrito">
+                  <td class="center">1</td>
+                  <td>
+                    <div>
+                      <img
+                        src="img/Destacado_1.png"
+                        alt="Carrito1"
+                        height="100"
+                        width="100"
+                      />
+                      <h3>Mario Bros Colección</h3>
+                    </div>
+                  </td>
+                  <td>
+                    Este juguete de colección muestra a Mario en su pose
+                    emblemática, listo para saltar y enfrentar cualquier desafío
+                    que se le presente. Su postura dinámica y llena de energía
+                    le da vida al personaje y captura su espíritu aventurero.
+                  </td>
+                  <td class="center">2</td>
+                  <td class="center">###.##</td>
+                  <td class="center">###.##</td>
+                  <td>
+                    <div>
+                      <img class="EliminarItems"
+                        src="img/trash-solid.svg"
+                        alt="Eliminar"
+                        height="25"
+                        width="15"
+                      />
+                    </div>
+                  </td>
+                </tr>
+
+
+                <tr class="itemscarrito">
+                  <td class="center">2</td>
+                  <td>
+                    <div>
+                      <img
+                        src="img/Destacado_2.png"
+                        alt="Carrito2"
+                        height="100"
+                        width="100"
+                      />
+                      <h3>Batman y Batimovil Colección</h3>
+                    </div>
+                  </td>
+                  <td>
+                    Este juguete de Batman y su Batimovil es ideal para niños que adoran el mundo de los superhéroes y que desean recrear sus escenas favoritas de las películas o cómics de Batman. Además, fomenta la creatividad, la imaginación y el juego de roles, mientras los pequeños se convierten en sus propios defensores de la justicia.
+                  </td>
+                  <td class="center">1</td>
+                  <td class="center">###.##</td>
+                  <td class="center">###.##</td>
+                  <td>
+                    <div>
+                      <img class="EliminarItems"
+                        src="img/trash-solid.svg"
+                        alt="Eliminar"
+                        height="25"
+                        width="15"
+                      />
+                    </div>
+                  </td>
+                </tr>
+
+                
+                <tr class="itemscarrito">
+                  <td class="center">3</td>
+                  <td>
+                    <div>
+                      <img
+                        src="img/Destacado_6.png"
+                        alt="Carrito3"
+                        height="100"
+                        width="100"
+                      />
+                      <h3>Lamborghini Murciélago Colección</h3>
+                    </div>
+                  </td>
+                  <td>
+                    ¡Experimenta la emoción y la velocidad del legendario Lamborghini Murciélago con nuestro increíble juguete a escala! Diseñado para los amantes de los autos deportivos y los entusiastas de la marca Lamborghini, este juguete captura la esencia y el estilo inconfundible del Murciélago en un formato accesible para todas las edades.
+                  </td>
+                  <td class="center">3</td>
+                  <td class="center">###.##</td>
+                  <td class="center">###.##</td>
+                  <td>
+                                        <div>
+                      <img class="EliminarItems"
+                        src="img/trash-solid.svg"
+                        alt="Eliminar"
+                        height="25"
+                        width="15"
+                      />
+                    </div>
+                  </td>
+                </tr>
+
+          </tbody>
+              
+            </table>
+            <div class="row rowtotal" id="cards"><h2>Precio Total C$: ###.##</h2></div>
+            
+          </div>
+          </div>
+        </div>
+      </section>
+
+<div><br></div>
+
+      <section class="InfoPago">
+        <h2 class="center">Información de Pago <br> Método de Pago:</h2>
+        <div>
+          <div class="MetodoPago">
+            <h4>
+              <input type="checkbox" />
+              <img
+                src="img/credit-card-solid.svg"
+                alt="TarjetaCredito"
+                height="40"
+                width="60"
+              />
+              Tarjeta
+            </h4>
+            <h4>
+              <input type="checkbox" />
+              <img
+                src="img/cc-paypal.svg"
+                alt="PayPal"
+                height="40"
+                width="60"
+              />
+              PayPal
+            </h4>
+            <h4>
+              <input type="checkbox" />
+              <img
+                src="img/money-bill-transfer-solid.svg"
+                alt="Transferencia"
+                height="40"
+                width="60"
+              />
+              Transferencia
+            </h4>
+          </div>
+        </div>
+        <div>
+          <h2 class="center met">Datos del método de pago:</h2>
+          <div class="MetodoPago">
+            <form action="">
+              <div class="MetodoPago">
+              <div class="form-row">
+                <div class="col-md-11 mb-3">
+                  <label for="validationServer01">Dato 1</label>
+                  <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Ingrese Datos 1" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-11 mb-3">
+                  <label for="validationServer01">Dato 2</label>
+                  <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Ingrese Datos 2" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-11 mb-3">
+                  <label for="validationServer01">Dato 3</label>
+                  <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Ingrese Datos 3" required>
+                </div>
+              </div>
+            </div>
+            <div class="btnpago">
+              <button class="btn btn-primary" type="submit">Aplicar Pago</button>
+            </div>
+            </form>
+
+          </div>
+        </div>
+      </section>
+
+      
+<div><br></div>
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+
+
+   
+ 
+
+    </body>
+
+    <footer>
+      <div class="LogoFooter">
+        <a href="index.html"
+          ><img class="Logoimg" src="img/Logo.png" alt="MK_Toys"
+        /></a>
+        <p>© MK_Toys 2023</p>
+      </div>
+
+      <div class="DatosFooter">
+        <a href="Mapa.html" class="link-sin-subrayado">
+          <p class="Direccion">
+            Dirección: Portón viejo del cementerio 1/2c al este
+          </p>
+        </a>
+        <a href="Mapa.html" class="link-sin-subrayado">
+          <p class="Direccion">Jinotepe - Carazo</p>
+        </a>
+        <p>Teléfono : 8811-3038</p>
+        <p>Correo : MK_Toys@gmail.com</p>
+      </div>
+
+      <div class="RedesFooter">
+        <h2>Redes</h2>
+        <div class="imgredesfooter">
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="img/facebook.svg" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="img/square-instagram.svg" alt="Instagram"
+          /></a>
+          <a href="https://www.whatsapp.com" target="_blank"
+            ><img src="img/square-whatsapp.svg" alt="WhatsApp"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

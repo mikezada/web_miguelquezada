@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="576" height="512">
+	<title>credit-card-solid-svg</title>
+	<defs>
+		<image  width="576" height="448" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkAAAAHAAQMAAABwDEUwAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAL2aVJbQT+AAAAAJ0Uk5TAP9bkSK1AAACWUlEQVR4nO3dQXKCMBiGYZ0uXHqEHIWj4dE4CkdwyYIhLaZpIE4h+n/tpPX9dsHJM5iQ6IDjfzjccvJPpz8s8va84323gAwntD6lxgKNyTlaHO8vmne2fG/OBg1fUGuDJtEQpUEyDlEapLMVumrGOo12a4XiaFsd70WTFqfNPGlx2syTFqfN2aHBvoeEjJrZj/Nvd8L8C2Y/zL9p44/plJDgegxXpOB6DFekU0CDEmoU0Ki5sMOlLYMUzm2NqCDJUpsXmwySLLV5sckgyZqdV60Mkiz+efnLIKeBhgqhRgON/xlqNdAEVABpnI/dHwgICAgICAgICAjoFSBCCCGEEEIIIYQQQgghhBBCSHlkD+qAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgF4cyn+VVP5rpfVLfexwytrZ8V3oEjscs3Z2fA+aUo82a6+O70KLv9Rusvbq+C6U/r86/AHhcA+5IuiaOpyz9ur4LtRn09PfQ99O289AXerwlrVXx38PuqQOx6y9Og4E9LegLnWoZK31qUMl+5Fsq5Vt/rKPI9kHpOwjW/clQva1xhAgICAgICAgICAgoJeAWo1TY4GJ+qBGA9VYOkUGOQ1UYwme+uod1VcTqr66WfXVFhPt/pv3lh6EWoUjrVHXKKBx617nI5FWFpQVTZSVcayvQqWs+KZkjWzfoi7PtH3TvDzhVryzQ+HhgKysrKzQraz0rmD+9x5RlCY+9nBWKD7RkZVwlhWVlpW5lhXe1pUClxUnl5VLlxVw15WUNy23pWM5pc8TegcFBlZTyw04bQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="32"/>
+</svg>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MK_Toys</title>
+    <!-- <link rel="stylesheet" href="css/estilos.css" />-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="LogoHeader">
+        <img class="Logoimg" src="img/Logo.png" alt="MK_Toys" height="100" />
+      </div>
+
+      <div class="header-right">
+        <form>
+          <!-- Barra de Busqueda -->
+          <input type="search" placeholder="Buscar" />
+          <button type="submit">Buscar</button>
+        </form>
+
+        <nav>
+          <!-- Enlaces de Navegacion -->
+
+          <div class="menu-items">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="Categoria.html">Categoría</a></li>
+              <li><a href="Acerca de Nosotros.html">Acerca de Nosotros</a></li>
+              <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="cart">        
+        <div class="menu-toggle">
+          <ul class="nav nav-tabs">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Menu</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Inicio</a>
+                <a class="dropdown-item" href="Categoria.html">Categoría</a>
+                <a class="dropdown-item" href="Acerca de Nosotros.html">Nosotros</a>
+                <a class="dropdown-item" href="Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Contenedor del carrito de compras -->
+        <a href="Carrito.html"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </header>
+
+    <body>
+      <!-- <section class="carousel-container">
+      <div class="carousel">
+        <div class="slide" id="slide1" style="background-image: url('img/Logo.png');"></div>
+        <div class="slide" id="slide2" style="background-image: url('img/Slider_1.png');"></div>
+        <div class="slide" id="slide3" style="background-image: url('img/Slider_2.png');"></div>
+        <div class="slide" id="slide4" style="background-image: url('img/Slider_3.png');"></div>
+        <div class="slide" id="slide5" style="background-image: url('img/Slider_4.png');"></div>
+        <div class="slide" id="slide6" style="background-image: url('img/Slider_5.png');"></div>
+        <div class="slide" id="slide7" style="background-image: url('img/Slider_6.png');"></div>
+      </div>
+    </section> -->
+      <main class="container">
+        <div class="row">
+          <div class="col">
+            <div class="carousel slide" id="slideshow" data-ride="carousel">
+              <!-- Indicadores -->
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#slideshow"
+                  class="active"
+                  data-slide-to="0"
+                ></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+                <li data-target="#slideshow" data-slide-to="2"></li>
+                <li data-target="#slideshow" data-slide-to="3"></li>
+                <li data-target="#slideshow" data-slide-to="4"></li>
+                <li data-target="#slideshow" data-slide-to="5"></li>
+                <li data-target="#slideshow" data-slide-to="6"></li>
+              </ol>
+
+              <!-- Slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/Slider/01.webp" alt="" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Slider/2.webp" alt="" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Slider/3.jpg" alt="" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Slider/5.png" alt="" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Slider/6.png" alt="" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Slider/7.png" alt="" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/Slider/8.jpg" alt="" class="d-block w-100" />
+                </div>
+              </div>
+
+              <!-- Controles -->
+              <a
+                href="#slideshow"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a
+                href="#slideshow"
+                class="carousel-control-next"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="Titulos">
+        <a href="Categoria.html" class="link-sin-subrayado">
+          <h1>CATEGORIAS</h1>
+        </a>
+        <div class="SeccionCategorias">
+          <div class="Categoria">
+            <img
+              src="img/Cat_Lego.png"
+              alt="Categoria de Lego"
+              height="300"
+              width="300"
+            />
+            <a href="Lego.html" class="link-sin-subrayado">
+              <h2>LEGO</h2>
+            </a>
+          </div>
+          <div class="Categoria">
+            <img
+              src="img/Cat_Coleccion.png"
+              alt="Categoria de Coleccion"
+              height="300"
+              width="300"
+            />
+            <a href="Coleccion.html" class="link-sin-subrayado">
+              <h2>COLECCION</h2>
+            </a>
+          </div>
+          <div class="Categoria">
+            <img
+              src="img/Cat_Varios.png"
+              alt="Categoria de Varios"
+              height="300"
+              width="300"
+            />
+            <a href="Varios.html" class="link-sin-subrayado">
+              <h2>VARIOS</h2>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="Destacados">
+        <h1>DESTACADOS DE LA SEMANA</h1>
+        <div class="SeccionDestacados">
+          <div class="Destacado">
+            <img
+              src="img/Destacado_1.png"
+              alt="Destacado 1"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_2.png"
+              alt="Destacado 2"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_3.png"
+              alt="Destacado 3"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_4.png"
+              alt="Destacado 4"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_5.png"
+              alt="Destacado 5"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_6.png"
+              alt="Destacado 6"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_7.png"
+              alt="Destacado 7"
+              height="80"
+              width="80"
+            />
+          </div>
+          <div class="Destacado">
+            <img
+              src="img/Destacado_8.png"
+              alt="Destacado 8"
+              height="80"
+              width="80"
+            />
+          </div>
+        </div>
+      </section>
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+    </body>
+
+    <footer>
+      <div class="LogoFooter">
+        <a href="index.html"
+          ><img class="Logoimg" src="img/Logo.png" alt="MK_Toys"
+        /></a>
+        <p>© MK_Toys 2023</p>
+      </div>
+
+      <div class="DatosFooter">
+        <a href="Mapa.html" class="link-sin-subrayado">
+          <p class="Direccion">
+            Dirección: Portón viejo del cementerio 1/2c al este
+          </p>
+        </a>
+        <a href="Mapa.html" class="link-sin-subrayado">
+          <p class="Direccion">Jinotepe - Carazo</p>
+        </a>
+        <p>Teléfono : 8811-3038</p>
+        <p>Correo : MK_Toys@gmail.com</p>
+      </div>
+
+      <div class="RedesFooter">
+        <h2>Redes</h2>
+        <div class="imgredesfooter">
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="img/facebook.svg" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="img/square-instagram.svg" alt="Instagram"
+          /></a>
+          <a href="https://www.whatsapp.com" target="_blank"
+            ><img src="img/square-whatsapp.svg" alt="Whatsapp"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

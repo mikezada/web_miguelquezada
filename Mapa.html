@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MK_Toys</title>
+  <!-- <link rel="stylesheet" href="css/estilos.css" />-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY"></script>
+</head>
+
+<body>
+  <header>
+    <div class="LogoHeader">
+      <img class="Logoimg" src="img/Logo.png" alt="MK_Toys" height="100" />
+    </div>
+
+    <div class="header-right">
+      <form>
+        <!-- Barra de Busqueda -->
+        <input type="search" placeholder="Buscar" />
+        <button type="submit">Buscar</button>
+      </form>
+
+      <nav>
+        <!-- Enlaces de Navegacion -->
+
+        <div class="menu-items">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Categoria.html">Categoría</a></li>
+            <li><a href="Acerca de Nosotros.html">Acerca de Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="cart">        
+      <div class="menu-toggle">
+        <ul class="nav nav-tabs">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Menu</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="index.html">Inicio</a>
+              <a class="dropdown-item" href="Categoria.html">Categoría</a>
+              <a class="dropdown-item" href="Acerca de Nosotros.html">Nosotros</a>
+              <a class="dropdown-item" href="Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Contenedor del carrito de compras -->
+      <a href="Carrito.html"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </header>
+
+  <body>
+    <section id="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3739.2633299343665!2d-86.20352700982374!3d11.848243459892279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sni!4v1685726635791!5m2!1ses!2sni"
+        width="900" height="750" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+
+  <footer>
+    <div class="LogoFooter">
+      <a href="index.html"><img class="Logoimg" src="img/Logo.png" alt="MK_Toys" /></a>
+      <p>© MK_Toys 2023</p>
+    </div>
+
+    <div class="DatosFooter">
+      <a href="Mapa.html" class="link-sin-subrayado">
+        <p class="Direccion">Dirección: Portón viejo del cementerio 1/2c al este</p>
+      </a>
+      <a href="Mapa.html" class="link-sin-subrayado">
+        <p class="Direccion">Jinotepe - Carazo</p>
+      </a>
+      <p>Teléfono : 8811-3038</p>
+      <p>Correo : MK_Toys@gmail.com</p>
+    </div>
+
+    <div class="RedesFooter">
+      <h2>Redes</h2>
+      <div class="imgredesfooter">
+        <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.svg" alt="Facebook" /></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="img/square-instagram.svg" alt="Instagram" /></a>
+        <a href="https://www.whatsapp.com" target="_blank"><img src="img/square-whatsapp.svg" alt="Whatsapp" /></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
